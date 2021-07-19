@@ -6,7 +6,7 @@ text-decoration: none;
 }
 
 .button {
-border : none;
-background_color : white;
-foreground_color : black;
+border-style : none;
+background-color : white;
+foreground-color : black;
 }
