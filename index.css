@@ -1,0 +1,10 @@
+.link {
+color : blue
+font : "Open Sans"
+}
+
+.button {
+border : none
+background_color : white
+foreground_color : black
+}
