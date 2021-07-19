@@ -1,10 +1,10 @@
 .link {
-color : blue
-font : "Open Sans"
+color : blue ;
+font : 'Roboto', sans-serif;
 }
 
 .button {
-border : none
-background_color : white
-foreground_color : black
+border : none;
+background_color : white;
+foreground_color : black;
 }
