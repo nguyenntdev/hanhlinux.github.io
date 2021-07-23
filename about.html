@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+  <title>Home</title>
+<link href="index.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <header>
+    <h1>Hanh Linux</h1>
+    <div class="btndiv">
+      <button class="btn"><a href="http://hanhlinux.github.io/index.html" class="link">Home</a></button>
+      <button class="btn"><a href="http://hanhlinux.github.io/download.html" class="link">Download</a></button>
+      <button class="btn"><a href="http://hanhlinux.github.io/about.html" class="link">Information</a></button>
+      <button class="btn"><a href="http://github.com/hanhlinux" class="link">GitHub</a></button> 
+    </div>
+  </header>
+  
+  <br>
+  
+  <div class="body">
+
+    <div class="third">
+      <h3>Pros and cons</h3>
+      <div class="pro">
+        <h4>Pros</h4>
+        <p><b>Lightweight</b> 
+          <br>With core tools, non-multilib libraries, OpenRC are installed in the system, we focus more on system size and speed for experienced and advanced users. <br>
+          <br>
+          <b>Fast</b> 
+          <br>Hanh Linux uses <i>pacman</i> as the main package manager. <i>pacman</i> installs compiled packages instead downloads packages' source code and compiles them on your computer. This will save your time when upgrading and installing new packages. <br>
+          <br>Also, OpenRC only mounts important filesystems and starts services. systemd controls everything in the system, even your money and time to solve the problem when it is broken.
+          <br>
+          <b>Customizable</b>
+          <br>The installer give you chance to select, remove pre-installed packages (including installer) and install Xorg (no DE/WM install support). We also clean everything that the installer provides but you don't need to use.
+          <br>Also, there some packages will give you source code only if you want to compile yourself like <i>linux-src</i>
+          <br>
+          <b>Packages</b>
+          <br>We use Arch, Artix and our mirrors to help you access more packages. Also, AUR is a great place for you if you want to install some unofficial packages.
+        </p>
+        </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <p>
+          <b>Experience</b>
+          <br>Even that we have the installer, it still requires some manual work like typing, working with <i>fdisk</i>, etc.
+          <br>If you want to remove pre-installed packages in the system, you must be careful that your system may unbootable because of what you select
+          <br>
+          <b>Limited packages</b>
+          <br>Since we uses non-multilib and only some languages for core libraries in the system, some packages may not work properly. 
+          <br>You need to install the Artix <i>gcc-libs</i> and <i>glibc</i>, also <i>gcc</i> for compling.
+          <br>
+          <b>Rolling releases</b>
+          <br><i>pacman </i>installs the newewst packages available in the repositories. That means if you installs some packages are released for a short time, your system may break
+        </p>
+      </div>
+    </div>
+     
+  </div>
+</body>
+
+</html>
