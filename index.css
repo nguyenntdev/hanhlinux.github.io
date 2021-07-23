@@ -10,3 +10,8 @@ border-style : none;
 background-color : white;
 foreground-color : black;
 }
+
+body {
+font-family: 'Roboto', sans-serif;
+
+}
