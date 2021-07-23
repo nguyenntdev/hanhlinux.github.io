@@ -11,7 +11,17 @@ background-color : white;
 foreground-color : black;
 }
 
-body {
-font: 'Roboto', sans-serif;
+.body {
+font-family: 'Roboto', sans-serif;
 
+}
+
+.pro {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+}
+
+.cons {
+  text-align: right;
+  font-family: 'Roboto', sans-serif;
 }
