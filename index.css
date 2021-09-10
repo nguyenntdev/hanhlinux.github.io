@@ -7,6 +7,9 @@ text-decoration: none;
 
 .body {
 font-family: 'Roboto', sans-serif;
+max-width: 1250px;
+margin: auto;
+padding: 10px;
 
 }
 
