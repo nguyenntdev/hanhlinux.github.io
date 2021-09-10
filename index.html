@@ -1,42 +1,48 @@
 <!DOCTYPE HTML>
 <html>
  
-  <head>
-    <title>Hanh Linux</title>
-    <link href="index.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
+<head>
+	<title>Hanh Linux</title>
+    	<link rel="icon" type="image/png" href="src/images/hanhlinux.png">    
+</head>
 
-  <body>
-    <div class="body">
-    <header>
-      <h1>Hanh Linux</h1>
-      <p style="text-align: right;">
-      <a href="https://hanhlinux.github.io" class="link"><button class="btn">Homepage</button></a>
-      <a href="https://osdn.net/projects/hanhlinuxiso/releases/" class="link"><button class="btn">Download</button></a>
-      <a href="https://github.com/hanhlinux/hanhlinux/wiki" class="link"><button class="btn">Wiki</button></a>
-      <a href="https://github.com/hanhlinux" class="link"><button class="btn">Repositories</button></a>
-      </p>
-    </header>
-    
-    <br>
-    
-        <h4>What is this? </h4>
-        <br>
-          <p>A Linux distribution based on Artix by using LFS/BLFS guild as <b>a refrence</b> to build, supports non-multilib x86_64 core libraries with rolling-release model and have a guided installer for users.</p>
-        <br>
-        <h4>Purpose</h4>
-        <br>
-            <p>
-              <b>Simplicity</b>: Hanh Linux tries to make it simple without removing a lot of base and network-related packages. <br>
-              <b>Low-powered devices</b>: Based on Artix (also based on Arch), the system speed is much faster than some other popular distribtions. Moreover, Hanh Linux uses x64 gcc-libs and glibc instead of multilib, openrc instead of systemd to make it usable on low-powered devices. <br>
-              <b>systemd-free</b>: systemd comes as a modern init daemon for Unix-like, but it controls everything than a regular one. Hanh Linux uses openrc, a init does its regular job with more powerful features. <br>
-              <b>Cuztomization</b>: Hanh Linux only give you basic packages, a text editor and simple tools for network management. Users can decide what they want to install to their system</p>
-          <h4>Community</h4>
-          <a href="https://discord.gg/ba8weSjQnF" class="link">Discord</a>
-    </div>
-  </body>
+<style>
+	body {
+	  background: #2E3440;
+	}
+	.content {
+	   padding: 15px;
+           background: #3B4252;
+	   color: #ECEFF4;
+           max-width: 1125px;
+           margin: auto;
+           font-family:'Open Sans';	
+	 }
+</style>
+
+<body>
+	<div class="content">
+		<header>
+	    		<center><a href="https://hanhlinux.github.io"><img src="src/images/hanhlinux.png" width="150" height="150" alt="hanhlinux.png"></a>
+			<h1>Hanh Linux</h1>
+      			<a href="https://hanhlinux.github.io" class="link"><button class="btn">Homepage</button></a>
+      			<a href="https://osdn.net/projects/hanhlinuxiso/releases/" class="link"><button class="btn">Download</button></a>
+      			<a href="https://github.com/hanhlinux/hanhlinux/wiki" class="link"><button class="btn">Wiki</button></a>
+      			<a href="https://github.com/hanhlinux" class="link"><button class="btn">Repositories</button></a>
+    		</header>
+
+       		<center><h2>What is this?</h2></center>
+       		<p>A Linux distribution based on Artix by using LFS/BLFS guild as <b>a refrence</b> to build, supports non-multilib x86_64 core libraries with rolling-release model and have a guided installer for users.</p>
+
+        	<center><h2>Purpose</h2></center>
+        	<b>Simplicity</b>: Hanh Linux tries to make it simple without removing a lot of base and network-related packages. <br>
+		<b>Low-powered devices</b>: Based on Artix (also based on Arch), the system speed is much faster than some other popular distribtions. Moreover, Hanh Linux uses x64 gcc-libs and glibc instead of multilib, openrc instead of systemd to make it usable on low-powered devices. <br>
+     	 	<b>systemd-free</b>: systemd comes as a modern init daemon for Unix-like, but it controls everything than a regular one. Hanh Linux uses openrc, a init does its regular job with more powerful features. <br>
+     		<b>Cuztomization</b>: Hanh Linux only give you basic packages, a text editor and simple tools for network management. Users can decide what they want to install to their system</p>
+
+		<center><h2>Community</h2></center>
+		<center><a href="https://discord.gg/ba8weSjQnF"><img src="src/images/discordlogo.svg" width="71" height="55" alt="discordlogo.svg"></a></center>
+	</div>
+</body>
+
 </html>
