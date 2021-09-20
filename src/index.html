@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<title>Hanh Linux - Homepage</title>
+    	<link rel="icon" type="image/svg" href="src/images/hanhlinux.svg">    
+</head>
+
+<style>
+	body {
+	  background-color: #2E3440;
+	}
+	.content {
+	   padding: 15px;
+           background-color: #3B4252;
+	   color: #ECEFF4;
+           max-width: 1125px;
+           margin: auto;
+           font-family: 'Roboto', sans-serif;	
+	 }
+	 .button {
+  	    background-color: #2E3440;
+  	    color: #ECEFF4;
+            padding: 8px;
+  	    text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 2px;
+            border-radius: 6px;
+	}
+</style>
+
+<body>
+	<div class="content">
+		<header>
+	    		<center><a href="https://hanhlinux.github.io"><img src="src/images/hanhlinux.svg" width="256" height="256" alt="hanhlinux.png"></a>
+				<h1>Hanh Linux</h1>
+      			<a href="https://hanhlinux.github.io" class="button">Homepage</a>
+      			<a href="https://osdn.net/projects/hanhlinuxiso/releases/" class="button">Download</a>
+      			<a href="https://github.com/hanhlinux/hanhlinux/wiki" class="button">Wiki</a>
+      			<a href="https://github.com/hanhlinux" class="button">Repositories</a>
+    	</header>
+
+       		<center><h2>What is this?</h2></center>	
+       		<p>A rolling-release Linux distribution based on Artix Linux, using LFS/BLFS guide as <b>a refrence</b> to build, supports non-multilib x86_64 core libraries, with a guided installer.</p>
+
+        	<center><h2>Purpose</h2></center>
+		<p><b>Simplicity</b>: Hanh Linux tries to be minimal without removing a lot of base or network-related packages.<br></p>
+		<b>Low-powered devices</b>: Based on Artix Linux, it's much faster than most other popular linux distribtions. Moreover, Hanh Linux uses x64 gcc-libs and glibc instead of multilib, and openrc instead of systemd to make it usable on lower-powered devices.<br></p>
+		<b>systemd-free</b>: systemd comes as a modern init daemon for Unix-like, but it does not follow UNIX philosophy, Hanh Linux uses openrc, a init with more powerful features.<br></p>
+		<b>Customization</b>: Hanh Linux only give you base packages, a text editor and simple tools for network management, Users can decide what they want to install to their system.</p>
+
+		<center><h2>Community</h2></center>
+		<center><a href="https://discord.gg/ba8weSjQnF"><img src="src/images/discordlogo.svg" width="71" height="55" alt="discordlogo.svg"></a></center>
+	</div>
+</body>
+
+</html>
